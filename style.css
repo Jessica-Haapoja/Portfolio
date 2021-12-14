@@ -96,6 +96,14 @@ nav a:active {
 }
 h4{
 	text-align: center;
+	margin: 4px 4px 4px 4px;
+}
+p{
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+.guru{
+	margin: 10px 10px 10px 10px;
 }
 /*CSS without a media query--applies to all sizes unless overridden*/
 
@@ -132,5 +140,6 @@ Canvas {
 	margin: 0 auto;
 }
 button{
+	margin-left: 60px;
 	margin-top: 20px;
 }
