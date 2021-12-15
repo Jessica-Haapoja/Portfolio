@@ -4,12 +4,12 @@
 		<meta charset="utf-8">
 		<meta name="veiwpoint" content="width=device-width, initial-scale=1.0">
 		<title>Jessica Haapoja Porfolio: Game</title>
-	   <style>
-	      canvas {
-	      border:4px solid #990000;
-	      background-color: #f1f1f1;
-	      }
-	   </style>
+		<style>
+			canvas {
+				border:4px solid #990000;
+				background-color: #f1f1f1;
+			}
+		</style>
 		 <!---stylesheet--->
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -17,7 +17,7 @@
 	</head>
 	<body onload="startGame()"> 
 		<header> 
-				<img class="logo" src="images/logo.png" alt="portfolio logo" height="99" width="480" class="img-fluid logo">
+			<img class="logo" src="images/logo.png" alt="portfolio logo" height="99" width="480" class="img-fluid logo">
 		</header>
 		<nav>
 			<ul>
@@ -29,15 +29,13 @@
 		</nav>
 		<main> 
 			<h1>Javascripe Flappy Bird Game</h1>
-				<p>The game below was made in web fundementals course. The class was given the code to make the basic game and was expected to make simple changes to the game as an introduction to Javascript. Feel free to take a break and play for a bit, but Make sure to lightly click the accelerate button.</p>
-			   <!-- This is the HTMLcode for the game-->
+			<p>The game below was made in web fundementals course. The class was given the code to make the basic game and was expected to make simple changes to the game as an introduction to Javascript. Feel free to take a break and play for a bit, but Make sure to lightly click the accelerate button.</p>
+			<!-- This is the HTMLcode for the game-->
 			<div id="game"></div>
 			<div class="game-controls">
 			    <button class="myButton" onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
 			</div>
-
 			<!-- This is the JavaScript for the game-->
-
 			<script>
 			      var myGamePiece;
 			      var myObstacles = [];
