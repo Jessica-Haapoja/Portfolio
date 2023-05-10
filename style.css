@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;900&display=swap');
+
 body {
 	margin: 10px 0;
 	background-color: #F3F3F3;
@@ -33,7 +34,6 @@ main {
 	background-color: #F3F3F3;
 	color: #22124D;
 	text-align: center;
-	font-family: 'Ubuntu 700', sans-serif;
 }
 div{
 	display:block;
@@ -59,7 +59,7 @@ nav ul {
 	list-style-type: none;
 	text-align: center;
 	padding: 8px;
-	font-family: 'Ubuntu 700', sans-serif;
+	font-family: 'Merriweather 900', serif;
 	margin: 5px 4px 4px 4px;
 }
 nav li {
@@ -68,7 +68,6 @@ nav li {
 	padding: 8px 12px;
 	border-radius: 5px;
 	text-decoration: none;
-	font-family: 'Ubuntu 700', sans-serif;
 }
 nav li:hover{
 	background-color: #A9A9A9;
@@ -94,24 +93,23 @@ nav a:active {
 .p-left{
 	text-align: left;
 }
-h4{
-	text-align: center;
-	margin: 4px 4px 4px 4px;
-}
 p{
 	text-align: center;
 	padding: 5px 5px 5px 5px;
+	font-family: 'Merriweather 400', serif;
 }
 .guru{
 	margin: 10px 10px 10px 10px;
 }
 /*CSS without a media query--applies to all sizes unless overridden*/
 
-h1{
-	font-family: 'Abril Fatface', cursive;
- }
-h2{
-	font-family: 'Ubuntu 400', sans-serif;
+h1,h2{
+	font-family: 'Berkshire Swash', cursive;
+}
+h4{
+	text-align: center;
+	margin: 4px 4px 4px 4px;
+	font-family: 'Merriweather 400', serif;
 }
 /* CSS Adjustments for Tablets */
 @media only screen and (max-width: 1024px) {
@@ -142,4 +140,29 @@ Canvas {
 button{
 	margin-left: 60px;
 	margin-top: 20px;
+}
+/* CSS for gallery*/
+
+.gallery .preview{
+    width:100%
+    height:400;
+}
+
+.gallery .gallery-thumbnails img {
+    width:100px;
+    height:75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: .8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
 }
